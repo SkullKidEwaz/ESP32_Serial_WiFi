@@ -1,7 +1,7 @@
 # ESP32_Serial_WiFi
 Send Serial UART messages over WiFi
 
-You can connect your ESP32 with this Code to any other ESP32, ESP8266, Arduino or STM32 Project to send yourself Serial-Messages via Serial.println().
+You can connect your ESP32 with this Code to any other ESP32, ESP8266, Arduino or STM32 Project to send yourself Serial-Messages via Serial.println() over WiFi.
 
 Setup:
   1. compile the main.cpp and program your ESP32(i did it with platformio.io)
