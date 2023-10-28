@@ -21,4 +21,4 @@ How to Connect:
 You can use this Messages for debugging or testing your Device, without the needing of long USB Cables or whatever.
 
 You could add this Code to your existing Project, but for me i dont want to run all of this extra code, and sometimes i use the Wlan for other things,
-so i use an extra ESP32 for this code.
+so i use an extra ESP32 with this code running.
