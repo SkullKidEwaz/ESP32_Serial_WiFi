@@ -1,19 +1,19 @@
 #include <WiFi.h>
 
-const char* ssid     = "Serial_AP";  //Name of the Access Point
-const char* password = "changeme";   //Password for Access Point
+const char *ssid = "Serial_AP";    // Name of the Access Point
+const char *password = "changeme"; // Password for Access Point
 
-IPAddress local_ip(192,168,0,1);     //Telnet to this IP Adress
-IPAddress gateway(192,168,0,1);
-IPAddress subnet(255,255,255,0);
+IPAddress local_ip(192, 168, 0, 1); // Telnet to this IP Adress
+IPAddress gateway(192, 168, 0, 1);
+IPAddress subnet(255, 255, 255, 0);
 
-const uint ServerPort = 23;          //Telnet Port
+const uint ServerPort = 23; // Telnet Port
 WiFiServer Server(ServerPort);
 
 WiFiClient RemoteClient;
 
-#define RXD2 16                      //Serial RX GPIO-Pin
-#define TXD2 17                      //Serial TX GPIO-Pin
+#define RXD2 16 // Serial RX GPIO-Pin
+#define TXD2 17 // Serial TX GPIO-Pin
 
 void setup()
 {
@@ -33,7 +33,8 @@ void setup()
   Serial.print("\n[+] Telnet Server Created ");
 }
 
-void loop(){
+void loop()
+{
   RemoteClient = Server.available();
   while (RemoteClient)
   {
