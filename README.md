@@ -1,4 +1,9 @@
 # ESP32_Serial_WiFi
+
+# This Project is no longer active, I work on a (in my opinion) better tool which is available at:
+# https://github.com/dominik-ewers-solutions/mcu_ble_terminal_app
+# MCU BLE Terminal uses a nice Terminal like App, Connection over BLE is Better, Works like the Serial.print();
+
 Send Serial UART messages over WiFi
 
 You can connect your ESP32 with this Code to any other ESP32, ESP8266, Arduino or STM32 Project to send yourself Serial-Messages via Serial.println() over WiFi.
